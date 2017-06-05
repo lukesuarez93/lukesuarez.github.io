@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Palco Caiçara - Contato</title>   
+    
+    
+    <!--styles-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/default-style.css" />
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <style>
+    #corpo>p:first-child{
+        background-color:#FF6600;
+        width:400px;
+        text-align:center;
+        font-size:50px;
+        margin:0 auto;
+        padding:20px;
+        color:white;
+    }
+    
+    #corpo{
+        margin-bottom:100px;
+    }
+    </style>
+    </head>
+    
+    <body>
+        <!--HEADER-->
+        <header>
+            <ul>
+                <div class="row">
+                <div class="col-md-3">
+                    <li><h1><a href="home.html">
+                        <span class="glyphicon glyphicon-cd" aria-hidden="true"></span> palco <span id="text-caicara">caiçara</span></a>
+                        </h1></li>
+                </div>
+                    
+                <!--tirar css inline dps--> 
+                
+                <div class="col-md-2" style="text-align:right">
+                    <li style="margin:0"><a href="artistas.html">artistas</a></li>
+                </div>
+                    
+                <div class="col-md-2" style="text-align:center"> 
+                    <li style="margin:0"><a href="eventos.html">eventos</a></li>
+                </div>
+                    
+                <div class="col-md-3" style="text-align:left">
+                    <li style="margin:0"><a href="contato.html">contato</a></li>
+                </div>
+                
+
+                </div>
+                </ul>
+        </header>
+        
+        <div id="controle-fonte"> Texto:
+        <input type="button" class="button" value="-" id="Out" alt="Zoom Out"/>
+        <input type="button" class="button" value="+" id="In" alt="Zoom In"/>
+        </div>
+    
+        
+        <div id="corpo">
+            <p>fale conosco!</p>
+        </div>
+            
+        <div id="contato">
+            <div id="sobre">
+                <p>o palco caiçara é uma enciclopédia online de artistas musicais 
+                da cidade de santos.
+                <br><br>
+                
+                <a>contato@palcocaicara.com.br</a>
+                </p>
+                
+                <a href="#"><img src="img/botao-do-facebook.png" alt="botao do facebook"></a>
+            </div>
+            
+            <div id="formulario">
+                <form>
+		            <label for="nome" hidden>Nome</label>
+		            <input title="nome" type="text" name="nome" id="nome" minlength="5" maxlength="50" placeholder="nome" required autofocus>
+		            
+		            <label for="email" hidden>E-mail</label>
+			        <input type="email" name="email" id="email" minlength="10" maxlength="50" placeholder="e-mail" required>
+			        
+			        <label for="mensagem" hidden>Mensagem</label>
+			        <textarea name="mensagem" id="mensagem" rows="4" cols="61" placeholder="mensagem" style="resize:none"></textarea>
+			        <br><input type="submit" value="Enviar" id="enviar"><br>
+                </form>
+                
+            </div>
+        </div>
+        <br>
+        <footer>
+            &copy; Palco Caiçara  |  Desenvolvido por Lucas Mauricio, Gabriel Vieira
+        </footer>
+        
+    <script src="js/bootstrap.js"></script>  
+    <script src="js/fonte.js"></script>
+    </body>
+</html>

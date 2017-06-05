@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+    <meta charset="UTF-8" />
+    <title>Palco Caiçara - Eventos</title>   
+    
+    
+    <!--styles-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/default-style.css" />
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <style>
+        #corpo{
+            margin-top:25px;
+        }
+    </style>
+    </head>
+    
+    <body>
+        <!--HEADER-->
+        <header>
+            <ul>
+                <div class="row">
+                <div class="col-md-3">
+                    <li><h1><a href="home.html">
+                        <span class="glyphicon glyphicon-cd" aria-hidden="true"></span> palco <span id="text-caicara">caiçara</span></a>
+                        </h1></li>
+                </div>
+                    
+                <!--tirar css inline dps--> 
+                
+                <div class="col-md-2" style="text-align:right">
+                    <li style="margin:0"><a href="artistas.html">artistas</a></li>
+                </div>
+                    
+                <div class="col-md-2" style="text-align:center"> 
+                    <li style="margin:0"><a href="eventos.html">eventos</a></li>
+                </div>
+                    
+                <div class="col-md-3" style="text-align:left">
+                    <li style="margin:0"><a href="contato.html">contato</a></li>
+                </div>
+                
+                
+                </div>
+                </ul>
+        </header>
+        
+        <div id="controle-fonte"> Texto:
+        <input type="button" class="button" value="-" id="Out" alt="Zoom Out"/>
+        <input type="button" class="button" value="+" id="In" alt="Zoom In"/>
+        </div>
+    
+        
+        <div id="corpo">
+            <div id="pesquisar-barra">
+              <label for="pesquisa">Pesquisar por evento</label>
+              <input type="text" id="pesquisa" placeholder="Digite o nome do evento" autofocus>
+              <input type="submit" name="cmdSend" value="Pesquisar" id="btp"/>
+            </div>
+
+        
+
+                <div id="allFlyers">
+                    <div class="flyer">
+                      <img src="img/flyerPlaceholder.png" alt="flyer (placeholder)">
+                      <h2>LOCAL (ou nome)</h2>
+                      <p>bandas</p>
+                      <p>valor</p>
+                      <p>endereço completo</p>
+                      <p><a>veja como chegar</a></p>
+                    </div>
+
+                
+                    <div class="flyer">
+                      <img src="img/flyerPlaceholder.png" alt="flyer (placeholder)">
+                      <h2>LOCAL (ou nome)</h2>
+                      <p>bandas</p>
+                      <p>valor</p>
+                      <p>endereço completo</p>
+                      <p><a>veja como chegar</a></p>
+                    </div>
+                
+                    <div class="flyer">
+                      <img src="img/flyerPlaceholder.png" alt="flyer (placeholder)">
+                      <h2>LOCAL (ou nome)</h2>
+                      <p>bandas</p>
+                      <p>valor</p>
+                      <p>endereço completo</p>
+                      <p><a>veja como chegar</a></p>
+                    </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+                <div id="paginasFundo">
+                    página 
+                    <a href="#">[<<]</a> <a href="#">[<]</a> 
+                    <a href="#">1</a> - <a href="#">2</a> - <a href="#">3</a> - <a href="#">4</a> - 
+                    <a href="#">5</a> - <a href="#">6</a> - <a href="#">7</a> - <a href="#">8</a> - 
+                    <a href="#">9</a> - <a href="#">10</a> <a href="#">[>]</a> <a href="#">[>>]</a>
+                </div>
+        
+        <br>
+        
+        <footer>
+            &copy; Palco Caiçara  |  Desenvolvido por Lucas Mauricio, Gabriel Vieira
+        </footer>
+        
+    <script src="js/bootstrap.js"></script>  
+    <script src="js/fonte.js"></script>
+    </body>
+</html>
